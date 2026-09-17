@@ -1,0 +1,71 @@
+body {
+font-family: "Poppins", sans-serif;
+}
+
+h1 {
+    color:#4A56CA;
+    margin-bottom: 40px;
+}
+
+section {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.inputField {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.inputField--message {
+  min-height: 150px;
+}
+/* Varför blir den inte högre? */
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #6E78D5;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 16px;
+  font-weight: normal;
+}
+
+
+
+button {
+  align-self: flex-start;
+  margin-top: 15px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4A56CA;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6E78D5;
+}
