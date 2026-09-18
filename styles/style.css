@@ -34,9 +34,8 @@ label {
 }
 
 .inputField--message {
-  min-height: 150px;
+  height: 150px;
 }
-/* Varför blir den inte högre? */
 
 input:focus,
 textarea:focus {
